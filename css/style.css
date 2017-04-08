@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, h4 { 
+font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+	background-color: black; 
+	color: white;
+	background-image: url(../images/header-bg.jpg);
+	height: 600px;
+	text-align: center;  
+	background-position: center;
+	background-size: cover; 
+	padding-top: 200px;
+
+}
+
+header h1 { 
+	font-size: 60px;
+}
+
+header p {
+	font-style: italic; 
+	margin-bottom: 20px;
+
+}
+
+.button {
+	text-decoration: none; 
+	text-transform: uppercase;
+	border: 5px solid white;
+	color: white;
+	padding: 10px 25px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.button:hover {
+	background-color: white;
+	color: black;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block; 
+	margin-left: 20px;
+	
+}
+
+.JapanJournal {
+	color: red;
+	margin-right: 40px;
+	font-family: 'Montserrat', sans-serif
+}
+
+.categories {
+	padding: 30px 0px;
+	text-align: center; 
+}
+
+.categories ul {
+	padding: 0;
+
+}
+
+.categories ul li {
+	float: left;
+	width: 23%; 
+	padding-left: 1%; 
+	padding-right: 1%;
+
+}
+
+.categories img {
+	max-width: 100%;
+}
+
+.categories h3 {
+	text-transform: uppercase;
+	margin-bottom: 0;
+
+}
+
+.categories .button {
+	color:black;
+	border: 5px solid black;
+
+}
+
+
+.quote {
+	background-color: white; 
+	color: white;
+	background-image: url(../images/quote-bg.jpg);
+	height: 400px;
+	text-align: center;  
+	background-position: center bottom;
+	background-size: cover; 
+	padding: 40px;
+	background-attachment: fixed;
+
+}
+
+
+.quote h1 {
+	text-transform: uppercase;
+	font-size: 38px;
+	color: white;
+}
+
+.quote p {
+	font-style: italic;
+
+
+}
+
+.featured {
+	padding: 30px 0px;
+	text-align: center; 
+}
+
+.featured ul {
+	padding: 0;
+
+}
+
+.featured ul li {
+	float: left;
+	width: 31%; 
+	padding-left: 1%; 
+	padding-right: 1%;
+
+}
+
+.featured img {
+	max-width: 100%;
+}
+
+.featured h4{
+	text-transform: uppercase;
+	margin-bottom: 0;
+	background: red;
+	padding:10px 15px; 
+	margin:10px;
+	display: inline-block;
+
+}
+
+.italiconly {
+	font-style: italic;
+	color: gray;
+}
+
+.featured h3 {
+
+
+}
+
+@media (max-width: 600px)
+{.categories ul li, .featured ul li {
+	float: none;
+	width: 100%;
+	padding: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
